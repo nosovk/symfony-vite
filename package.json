@@ -1,11 +1,15 @@
 {
     "private": true,
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
     "license": "UNLICENSED",
     "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^2.0.3",
+        "sass": "^1.59.3",
+        "svelte-preprocess": "^5.0.3",
         "vite": "^4.0",
         "vite-plugin-symfony": "^0.7.2"
     }

@@ -1,0 +1,257 @@
+// Primary colors
+// Base
+$white: #ffffff;
+$black: #000000;
+
+// Primary (HUMAN Red)
+$red-25: #fffafa;
+$red-50: #fff0f0;
+$red-100: #ffe6e6;
+$red-200: #ffcccf;
+$red-300: #ff8f93;
+$red-400: #ff474e;
+$red-500: #d00019;
+$red-600: #b80012;
+$red-700: #930112;
+$red-800: #85000e;
+$red-900: #6b000c;
+
+// Gray UI
+$gray-25: #fcfcfd;
+$gray-50: #f9f9fb;
+$gray-100: #f2f4f7;
+$gray-200: #eaecf0;
+$gray-300: #d0d5dd;
+$gray-400: #98a2b3;
+$gray-500: #667085;
+$gray-600: #475467;
+$gray-700: #344054;
+$gray-800: #1d2939;
+$gray-900: #101828;
+
+// Error
+$error-25: #fffafd;
+$error-50: #fef2f9;
+$error-100: #fee2f3;
+$error-200: #fecae9;
+$error-300: #fd9bd6;
+$error-400: #f966bf;
+$error-500: #f038a6;
+$error-600: #d9208f;
+$error-700: #b41876;
+$error-800: #911860;
+$error-900: #7a1a54;
+
+// Warning
+$warning-25: #fffcf5;
+$warning-50: #fffaeb;
+$warning-100: #fef0c7;
+$warning-200: #fedf89;
+$warning-300: #fec84b;
+$warning-400: #fdb022;
+$warning-500: #f79009;
+$warning-600: #dc6803;
+$warning-700: #b54708;
+$warning-800: #93370d;
+$warning-900: #7a2e0e;
+
+// Success
+$success-25: #f6fef9;
+$success-50: #ecfdf3;
+$success-100: #d1fadf;
+$success-200: #a6f4c5;
+$success-300: #6ce9a6;
+$success-400: #32d583;
+$success-500: #12b76a;
+$success-600: #039855;
+$success-700: #027a48;
+$success-800: #05603a;
+$success-900: #054f31;
+
+//Secondary colors
+//human blue (Corelab DX)
+$blue-25: #fafcff;
+$blue-50: #f0f4ff;
+$blue-100: #dbe4ff;
+$blue-200: #c1cffb;
+$blue-300: #99b1f5;
+$blue-400: #4c68bd;
+$blue-500: #1d378b;
+$blue-600: #152a75;
+$blue-700: #132067;
+$blue-800: #111855;
+$blue-900: #0c103b;
+
+// Gray blue
+$gray-blue-50: #f8f9fc;
+$gray-blue-400: #717bbc;
+$gray-blue-600: #3e4784;
+
+// Gray cool (Microscopes)
+$gray-cool-25: #f9fafb;
+$gray-cool-50: #f6f7f9;
+$gray-cool-100: #eceff3;
+$gray-cool-200: #dadfe7;
+$gray-cool-300: #b7c2d1;
+$gray-cool-400: #8395af;
+$gray-cool-500: #5f7595;
+$gray-cool-600: #4a5a73;
+$gray-cool-700: #425067;
+$gray-cool-800: #323d4d;
+$gray-cool-900: #121721;
+
+// Gray modern (Equipment)
+$gray-modern-25: #fcfcfd;
+$gray-modern-50: #f8fafc;
+$gray-modern-100: #eef2f6;
+$gray-modern-200: #e3e8ef;
+$gray-modern-300: #cdd5df;
+$gray-modern-400: #9aa4b2;
+$gray-modern-500: #697586;
+$gray-modern-600: #4b5565;
+$gray-modern-700: #364152;
+$gray-modern-800: #202939;
+$gray-modern-900: #121926;
+
+// Moss (Molecular DX)
+$moss-25: #fafdf7;
+$moss-50: #f5fbee;
+$moss-100: #e6f4d7;
+$moss-200: #ceeab0;
+$moss-300: #acdc79;
+$moss-400: #86cb3c;
+$moss-500: #669f2a;
+$moss-600: #4f7a21;
+$moss-700: #3f621a;
+$moss-800: #335015;
+$moss-900: #2b4212;
+
+// Teal (Rapid Tests)
+$teal-25: #ccfbef;
+$teal-50: #ccfbef;
+$teal-100: #ccfbef;
+$teal-200: #99f6e0;
+$teal-300: #5fe9d0;
+$teal-400: #2ed3b7;
+$teal-500: #15b79e;
+$teal-600: #0e9384;
+$teal-700: #107569;
+$teal-800: #125d56;
+$teal-900: #134e48;
+
+// Cyan (POC DX)
+$cyan-25: #f5feff;
+$cyan-50: #ecfdff;
+$cyan-100: #cff9fe;
+$cyan-200: #a5f0fc;
+$cyan-300: #67e3f9;
+$cyan-400: #22ccee;
+$cyan-500: #06aed4;
+$cyan-600: #088ab2;
+$cyan-700: #0e7090;
+$cyan-800: #155b75;
+$cyan-900: #164c63;
+
+// Blue light (External Quality Assestment)
+$blue-light-25: #f5fbff;
+$blue-light-50: #f0f9ff;
+$blue-light-100: #e0f2fe;
+$blue-light-200: #b9e6fe;
+$blue-light-300: #7cd4fd;
+$blue-light-400: #36bffa;
+$blue-light-500: #0ba5ec;
+$blue-light-600: #0086c9;
+$blue-light-700: #026aa2;
+$blue-light-800: #065986;
+$blue-light-900: #0b4a6f;
+
+// Blue dark (Clinical Chemistry)
+$blue-dark-25: #f6f9fe;
+$blue-dark-50: #f1f5fd;
+$blue-dark-100: #e9effc;
+$blue-dark-200: #bed0f3;
+$blue-dark-300: #98b4ec;
+$blue-dark-400: #6d95e3;
+$blue-dark-500: #4f7fde;
+$blue-dark-600: #3167d3;
+$blue-dark-700: #285abd;
+$blue-dark-800: #1d4595;
+$blue-dark-900: #183877;
+
+// Purple (Autoimune DX)
+$purple-25: #fafaff;
+$purple-50: #f4f3ff;
+$purple-100: #ebe9fe;
+$purple-200: #d9d6fe;
+$purple-300: #bdb4fe;
+$purple-400: #9b8afb;
+$purple-500: #7a5af8;
+$purple-600: #6938ef;
+$purple-700: #5925dc;
+$purple-800: #4a1fb8;
+$purple-900: #3e1c96;
+
+// Pink (Hemostasis)
+$pink-25: #fef6fb;
+$pink-50: #fdf2fa;
+$pink-100: #fce7f6;
+$pink-200: #fcceee;
+$pink-300: #faa7e0;
+$pink-400: #f670c7;
+$pink-500: #ee46bc;
+$pink-600: #dd2590;
+$pink-700: #c11574;
+$pink-800: #9e165f;
+$pink-900: #851651;
+
+// Rosé (Hematology)
+$rose-25: #fff5f6;
+$rose-50: #fff1f3;
+$rose-100: #ffe4e8;
+$rose-200: #fecdd6;
+$rose-300: #fea3b4;
+$rose-400: #fd6f8e;
+$rose-500: #f63d68;
+$rose-600: #e31b54;
+$rose-700: #c01048;
+$rose-800: #a11043;
+$rose-900: #89123e;
+
+// Warm Red (ELISA)
+$warm-red-25: #fffafa;
+$warm-red-50: #fff0f0;
+$warm-red-100: #ffdcdc;
+$warm-red-200: #fd9191;
+$warm-red-300: #fd9191;
+$warm-red-400: #fc5959;
+$warm-red-500: #f22c2c;
+$warm-red-600: #e21d1d;
+$warm-red-700: #bc1010;
+$warm-red-800: #971111;
+$warm-red-900: #811212;
+
+// Orange dark (Urinanalysis)
+$orange-dark-25: #fff9f5;
+$orange-dark-50: #fff4ed;
+$orange-dark-100: #ffe6d5;
+$orange-dark-200: #ffd6ae;
+$orange-dark-300: #ff9c66;
+$orange-dark-400: #ff692e;
+$orange-dark-500: #ff4405;
+$orange-dark-600: #e62e05;
+$orange-dark-700: #bc1b06;
+$orange-dark-800: #97180c;
+$orange-dark-900: #771a0d;
+
+// Dark Yellow (CLIA)
+$dark-yellow-25: #fffdf5;
+$dark-yellow-50: #fef9e1;
+$dark-yellow-100: #fef2be;
+$dark-yellow-200: #fee98a;
+$dark-yellow-300: #fddb72;
+$dark-yellow-400: #ffb710;
+$dark-yellow-500: #f0a402;
+$dark-yellow-600: #ca8104;
+$dark-yellow-700: #a36405;
+$dark-yellow-800: #864d04;
+$dark-yellow-900: #6f3b06;
