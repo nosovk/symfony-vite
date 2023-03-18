@@ -1,16 +1,32 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "license": "UNLICENSED",
-    "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^2.0.3",
-        "sass": "^1.59.3",
-        "svelte-preprocess": "^5.0.3",
-        "vite": "^4.0",
-        "vite-plugin-symfony": "^0.7.2"
-    }
+  "private": true,
+  "name": "symfony-vite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "sass": "^1.59.3",
+    "svelte-preprocess": "^5.0.3",
+    "vite": "^4.0",
+    "vite-plugin-symfony": "^0.7.2"
+  },
+  "description": "```bash\r npm run dev\r symfony serve\r ```",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosovk/symfony-vite.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nosovk/symfony-vite/issues"
+  },
+  "homepage": "https://github.com/nosovk/symfony-vite#readme"
 }
