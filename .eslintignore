@@ -1,0 +1,10 @@
+/public/build
+/public/bundles
+/node_modules
+/var
+/vendor
+/*/
+!/assets/
+!/src/
+!/config/
+!/templates/

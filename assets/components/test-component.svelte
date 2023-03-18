@@ -1,6 +1,6 @@
 <svelte:options tag="test-component" />
 
-<script>
+<script lang="ts">
     export let customprop1 = null;
     export let customprop2 = null;
 </script>

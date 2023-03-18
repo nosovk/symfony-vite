@@ -7,11 +7,11 @@ export default defineConfig({
     plugins: [
         svelte({
             preprocess: sveltePreprocess({
+                postcss: true,
                 scss: {
                     prependData: '@use "assets/variables.scss" as *;'
                 }
             }),
-            // include: /\.component\.svelte$/,
             compilerOptions: {
                 customElement: true,
             },
@@ -24,15 +24,15 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                app: "./assets/app.js",
+                app: "./assets/app.ts",
                 mobileStyles: "./assets/scss/mobile.scss",
                 desktopStyles: "./assets/scss/desktop.scss",
                 printStyles: "./assets/scss/print.scss",
-                webcomponents: "./assets/entrypoints/webcomponents.js",
+                webComponents: "./assets/entrypoints/web-components.ts",
             },
         }
     },
     server: {
-        origin: "http://localhost:5173/", // this used in dev env to determine which origin to inline for static assets
+        origin: "http://localhost:5173", // this used in dev env to determine which origin to inline for static assets
     },
 });

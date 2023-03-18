@@ -1,6 +1,6 @@
 <svelte:options tag="modal-component" />
 
-<script>
+<script lang="ts">
 let dialog;
 </script>
 <button on:click={dialog.showModal()}>open</button>
