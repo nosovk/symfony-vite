@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+        {% block stylesheets %}
+            {{ parent() }}
+            {{ vite_entry_link_tags('webcomponents') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ parent() }}
+            {{ vite_entry_script_tags('webcomponents') }}
+        {% endblock %}
+
+{% block body %}
+    <p>base</p>
+    <a href="/">no web components</a>
+    <test-component customprop1="1" customprop2="true"></test-component>
+    <p>slots</p>
+    <modal-component>some modal text passed inside svelte component</modal-component>
+    <p>we can use static asset import in web component</p>
+    <asset-component></asset-component>
+    <p>We also can use images from vite with standart asset tag</p>
+    <img src="{{ asset('assets/images/vector/github.svg') }}" />
+
+{% endblock %}

@@ -24,7 +24,11 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                app: "./assets/app.js"
+                app: "./assets/app.js",
+                mobileStyles: "./assets/scss/mobile.scss",
+                desktopStyles: "./assets/scss/desktop.scss",
+                printStyles: "./assets/scss/print.scss",
+                webcomponents: "./assets/entrypoints/webcomponents.js",
             },
         }
     },

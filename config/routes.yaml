@@ -4,3 +4,8 @@ index:
   defaults:
     template:  'index.html.twig'
     statusCode: 200
+webcomponents:
+  path:         /webcomponents
+  controller:   Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+  defaults:
+    template: /webcomponents/index.html.twig
