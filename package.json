@@ -1,50 +1,50 @@
 {
-  "private": true,
-  "name": "symfony-vite",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "format": "prettier --ignore-path=.eslintignore --write --plugin-search-dir=. --cache=node_modules/.cache/prettier/ --cache-strategy=content .",
-    "format:check": "prettier --check --ignore-path=.eslintignore --cache=node_modules/.cache/prettier/ --cache-strategy=content --plugin-search-dir=. .",
-    "lint": "eslint --cache --cache-location=node_modules/.cache/eslint/ --cache-strategy=content .",
-    "lint:fix": "eslint --fix --cache --cache-location=node_modules/.cache/eslint/ --cache-strategy=content .",
-    "lint:report": "npm run lint -- -f node_modules/eslint-html-reporter/reporter.js -o reports/eslint.html",
-    "optimize:svg": "find ./src -name '*.svg' -print0 | xargs -0 -P16 -L20 npx svgo"
-  },
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.30.0",
-    "eslint-config-prettier": "^8.7.0",
-    "eslint-html-reporter": "^0.7.4",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "postcss": "^8.4.21",
-    "postcss-load-config": "^4.0.1",
-    "prettier": "^2.8.1",
-    "prettier-plugin-svelte": "^2.9.0",
-    "sass": "^1.59.3",
-    "svelte-preprocess": "^5.0.3",
-    "typescript": "^4.9.4",
-    "vite": "^4.0",
-    "vite-plugin-symfony": "^0.7.2"
-  },
-  "description": "```bash\r npm run dev\r symfony serve\r ```",
-  "version": "1.0.0",
-  "main": "vite.config.js",
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nosovk/symfony-vite.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/nosovk/symfony-vite/issues"
-  },
-  "homepage": "https://github.com/nosovk/symfony-vite#readme"
+	"private": true,
+	"name": "symfony-vite",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"format": "prettier --ignore-path=.eslintignore --write --plugin-search-dir=. --cache=node_modules/.cache/prettier/ --cache-strategy=content .",
+		"format:check": "prettier --check --ignore-path=.eslintignore --cache=node_modules/.cache/prettier/ --cache-strategy=content --plugin-search-dir=. .",
+		"lint": "eslint --cache --cache-location=node_modules/.cache/eslint/ --cache-strategy=content .",
+		"lint:fix": "eslint --fix --cache --cache-location=node_modules/.cache/eslint/ --cache-strategy=content .",
+		"lint:report": "npm run lint -- -f node_modules/eslint-html-reporter/reporter.js -o reports/eslint.html",
+		"optimize:svg": "find ./src -name '*.svg' -print0 | xargs -0 -P16 -L20 npx svgo"
+	},
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.0.3",
+		"@typescript-eslint/eslint-plugin": "^5.55.0",
+		"@typescript-eslint/parser": "^5.55.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.30.0",
+		"eslint-config-prettier": "^8.7.0",
+		"eslint-html-reporter": "^0.7.4",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.21",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.1",
+		"prettier-plugin-svelte": "^2.9.0",
+		"sass": "^1.59.3",
+		"svelte-preprocess": "^5.0.3",
+		"typescript": "^4.9.4",
+		"vite": "^4.0",
+		"vite-plugin-symfony": "^0.7.2"
+	},
+	"description": "```bash\r npm run dev\r symfony serve\r ```",
+	"version": "1.0.0",
+	"main": "vite.config.js",
+	"directories": {
+		"test": "tests"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nosovk/symfony-vite.git"
+	},
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/nosovk/symfony-vite/issues"
+	},
+	"homepage": "https://github.com/nosovk/symfony-vite#readme"
 }

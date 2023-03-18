@@ -11,7 +11,7 @@
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
 		"resolveJsonModule": true,
-    
+
 		/**
 			To have warnings/errors of the Svelte compiler at the correct position,
 			enable source maps by default.
@@ -26,13 +26,11 @@
 		"strict": true
 	},
 	"include": [
-    "vite.config.ts",
-    "assets/**/*.d.ts", 
-    "assets/**/*.js", 
-    "assets/**/*.ts", 
-    "assets/**/*.svelte"
-  ],
-  "exclude": [
-    "../node_modules/**"
-  ]
+		"vite.config.ts",
+		"assets/**/*.d.ts",
+		"assets/**/*.js",
+		"assets/**/*.ts",
+		"assets/**/*.svelte"
+	],
+	"exclude": ["../node_modules/**"]
 }
