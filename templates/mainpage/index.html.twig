@@ -1,0 +1,22 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Main page{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ vite_entry_link_tags('webComponents') }}
+    {{ vite_entry_link_tags('pages') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ vite_entry_script_tags('webComponents') }}
+    {{ vite_entry_script_tags('pages') }}
+{% endblock %}
+
+{% block body %}
+  <h1>Main Page</h1>
+  <a href="/">&larr; Back</a>
+  <product-benefits-component></product-benefits-component>
+  <p>End Page</p>
+{% endblock %}

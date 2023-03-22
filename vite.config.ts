@@ -9,7 +9,7 @@ export default defineConfig({
 			preprocess: sveltePreprocess({
 				postcss: true,
 				scss: {
-					prependData: '@use "assets/variables.scss" as *;',
+					prependData: '@use "assets/app.scss" as *;',
 				},
 			}),
 			compilerOptions: {
@@ -25,10 +25,12 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 				app: "./assets/app.ts",
+				styles: "./assets/app.scss",
 				mobileStyles: "./assets/scss/mobile.scss",
 				desktopStyles: "./assets/scss/desktop.scss",
 				printStyles: "./assets/scss/print.scss",
 				webComponents: "./assets/entrypoints/web-components.ts",
+				pages: "./assets/scss/pages/main-page.scss",
 			},
 		},
 	},

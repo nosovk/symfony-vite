@@ -1,5 +1,8 @@
 @use "sass:math";
-@import "./scss/colors.scss";
+
+// mobile-first
+$min-width-tablet: 992px;
+$min-width-wide-screen: 1440px;
 
 // font-weight
 $font-w-regular: 400;
@@ -73,12 +76,6 @@ $font-w-bold: 700;
 }
 
 // mixins
-@mixin onWideScreens {
-	@media (min-width: 1440px) {
-		@content;
-	}
-}
-
 @mixin focus-ring($size, $color) {
 	box-shadow: 0px 0px 0px ($size * 1px) $color;
 }
